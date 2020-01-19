@@ -15,16 +15,15 @@ public class KullaniciSenaryoImplementation
 
         driver.navigate().to("https://www.hepsiburada.com/");
 
-        findElement(By.cssSelector("Span.profile-name")).click();
-        //driver.findElement(By.cssSelector("Span[class='profile-name ']")).click();  Çalışıyor
-        //findElement(By.id("L-UserNameField")).sendKeys("sts.cetinsemih@gmail.com");
-        //findElement(By.id("L-PasswordField")).sendKeys("Aa9090900");
+        findElement(By.id("myAccount")).click();
+        findElement(By.id("login")).click();
+        findElement(By.id("email")).sendKeys(kullaniciAdi);
+        findElement(By.id("password")).sendKeys(sifre);
+        Thread.sleep(1000);
+        findElement(By.cssSelector("button[class='btn full btn-login-submit']")).click();
 
-        /*
-        sendKeys(By.id("L-UserNameField"),"sts.cetinsemih@gmail.com");
-        sendKeys(By.id("L-PasswordField"),"08110045034");
-        clickElement(By.id("gg-login-enter"));
-         */
+
+        
 
         Thread.sleep(3000);
 

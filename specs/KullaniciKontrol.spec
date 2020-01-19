@@ -7,4 +7,4 @@ Every heading in this file denotes a scenario. Every bulleted point denotes a st
      
 Kullanici Giris
 ----------------
-* Kullanıcı "sts.cetinsemih@gmail.com",Parola "08110045034" İle Login Olunur
+* Kullanıcı "sts.cetinsemih@gmail.com",Parola "Aa909090" İle Login Olunur
