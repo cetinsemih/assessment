@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8e11817-4d4e-44f6-85e0-d204e0e71ed2" name="Default Changelist" comment="" />
+    <list default="true" id="b8e11817-4d4e-44f6-85e0-d204e0e71ed2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/users.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/users.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specs/KullaniciKontrol.spec" beforeDir="false" afterPath="$PROJECT_DIR$/specs/KullaniciKontrol.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/KullaniciSenaryoImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/KullaniciSenaryoImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/KullaniciSenaryoImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/KullaniciSenaryoImplementation.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +28,7 @@
   <component name="ProjectId" id="1WaOuk0i4TWJPXk5BstUyGvokPT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/Depo/Otomaston/Projeler/1.video" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cansu/HepsiburadaTestAutomation-master" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -46,6 +52,21 @@
     </option>
   </component>
   <component name="RunManager" selected="Gauge Execution.Kullanici Giris">
+    <configuration name="Kullanici Giris (1)" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/KullaniciKontrol.spec:8" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="assessment" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Kullanici Giris (2)" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
       <setting name="environment" value="" />
       <setting name="specsToExecute" value="$PROJECT_DIR$/specs/KullaniciKontrol.spec:8" />
@@ -91,24 +112,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kullanici Giris (5)" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/KullaniciKontrol.spec:8" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="assessment" />
-      <envMap />
-      <setting name="rowsRange" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Kullanici Giris" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
       <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/KullaniciKontrol.spec:8" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/KullaniciKontrol.spec:10" />
       <setting name="tags" value="" />
       <setting name="parallelNodes" value="" />
       <setting name="execInParallel" value="false" />
@@ -124,10 +130,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gauge Execution.Kullanici Giris" />
-        <item itemvalue="Gauge Execution.Kullanici Giris (5)" />
         <item itemvalue="Gauge Execution.Kullanici Giris (4)" />
         <item itemvalue="Gauge Execution.Kullanici Giris (3)" />
         <item itemvalue="Gauge Execution.Kullanici Giris (2)" />
+        <item itemvalue="Gauge Execution.Kullanici Giris (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +155,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
